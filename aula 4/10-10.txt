@@ -1,0 +1,25 @@
+operadores 
+
+= igual
+> maior
+< menor 
+<> diferente
+>= maior ou igual
+<= menor ou igual
+in existe dentro da lista
+
+or - adiciona outra condição. ao menos uma tem que ser verdadeira
+
+and - adiciona outra condição. As duas tem que ter que ser verdadeiras
+
+Ambos servem para relacionar diferentes tabelas, porém o union junta tabelas com as mesmas colunas enquanto join junta dados de diferentes linhas. Portanto, usamos o union quando quisermos saber todos os dados de uma mesma categoria e o join quando quisermos saber todos os dados de um registro.
+
+JOIN e UNION - junta tabelas
+
+LEFT JOIN, RIGHT JOIN, INNER JOIN, FULL JOIN
+
+GROUP BY - criar grupos baseado em uma clasula (SUM,MAX,MIN,COUNT) 
+HAVING 
+AS - apelido para um campo
+
+Listar as colunas é uma boa prática pois evita o consumo de dados desnecessários
