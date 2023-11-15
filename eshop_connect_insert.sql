@@ -1,6 +1,6 @@
-# Inseri os dados na tabela de usuario
+-- Inseri os dados na tabela de usuario
 
-# Inserindo dados nas tabelas de usuarios
+-- Inserindo dados nas tabelas de usuarios
 
 INSERT INTO users (pk_userId,name,phoneNumber) VALUES (1,'Leonard Carroll','809-902-4957');
 INSERT INTO users (pk_userId,name,phoneNumber) VALUES (2,'Sybill C. Kane','797-156-7733');
@@ -128,18 +128,18 @@ INSERT INTO seller VALUES (9);
 INSERT INTO seller VALUES (4);
 INSERT INTO seller VALUES (88);
 
-# ALTER TABLE address MODIFY COLUMN streetAddr VARCHAR(40);
+ALTER TABLE address MODIFY COLUMN streetAddr VARCHAR(40);
 
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (1,28,'Haviva F. Davidson','915-791-0670','Ontario','Ottawa-Carleton','8484 Nonummy Av.','N0C 7E0');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (2,21,'Rae R. Lara','495-472-7273','Ontario','St. Catharines','5836 Iaculis Avenue','L7M 2V6');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (3,36,'Ashely O. Knowles','895-493-8279','British Columbia','Hudson''s Hope','P.O. Box 827, 1825 Fusce Ave','V7A 5A6');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (4,11,'Hollee G. Hudson','516-753-9880','Quebec','Baie-Comeau','9376 Imperdiet Street','G4J 8Y2');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (5,39,'Kylynn G. Waller','838-912-3476','Quebec','Neuville','Ap #179-5810 Nunc Rd.','G9K 8Y6');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (5,39,'Kylynn G. Waller','838-912-3476','Quebec','Neuville','Ap 179-5810 Nunc Rd.','G9K 8Y6');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (6,38,'Audra Manning','898-140-2501','Manitoba','Daly','732-9599 Lacinia Rd.','R1X 3Z2');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (7,9,'Zia Guzman','781-454-1244','Ontario','Cornwall','Ap #553-1602 Sit Av.','M4G 2Y2');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (7,9,'Zia Guzman','781-454-1244','Ontario','Cornwall','Ap 553-1602 Sit Av.','M4G 2Y2');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (8,12,'Xerxes Luna','841-769-6638','Quebec','Verdun','P.O. Box 210, 6443 Donec Road','G5L 7P4');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (9,25,'Azalia P. Hooper','116-526-3919','Quebec','Lachine','Ap #379-4986 Odio. Rd.','H3P 9J4');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (10,32,'Dahlia Rojas','916-981-2927','Ontario','Vaughan','Ap #642-6556 Adipiscing St.','L4T 4A3');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (9,25,'Azalia P. Hooper','116-526-3919','Quebec','Lachine','Ap 379-4986 Odio. Rd.','H3P 9J4');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (10,32,'Dahlia Rojas','916-981-2927','Ontario','Vaughan','Ap 642-6556 Adipiscing St.','L4T 4A3');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (11,11,'Melanie Duran','440-799-4382','Ontario','Tay','565-8573 Et Road','M0K 5N9');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (12,19,'Nyssa S. Maynard','861-136-6572','Prince Edward Island','Montague','P.O. Box 794, 5616 Gravida Rd.','C5Z 2Z0');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (13,38,'Hilary I. Boone','618-129-6884','British Columbia','Sooke','P.O. Box 594, 5086 At Avenue','V9W 0S9');
@@ -152,38 +152,38 @@ INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, ci
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (20,34,'Tyler O. Curry','111-353-8652','Quebec','Baie-Comeau','171-701 Semper Street','H3H 0J1');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (21,32,'Nola Y. Mcmahon','826-961-6244','Saskatchewan','Calder','477-5078 Dolor Street','S2X 2E7');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (22,34,'Drake Witt','464-747-5669','Nova Scotia','Pugwash','6574 Ipsum Av.','B9S 5E9');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (23,39,'Valentine Y. Peterson','175-217-1821','Alberta','Westlock','Ap #338-3056 Justo. St.','T5S 5V8');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (23,39,'Valentine Y. Peterson','175-217-1821','Alberta','Westlock','Ap 338-3056 Justo. St.','T5S 5V8');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (24,20,'Daphne Munoz','841-264-2751','Ontario','Midlands','7408 Pharetra Rd.','N8M 0B3');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (25,34,'Thomas O. Morse','700-652-8089','Saskatchewan','Estevan','P.O. Box 537, 4062 Mauris Ave','S0H 8L8');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (26,15,'Dahlia H. Fox','747-633-8010','Ontario','Russell','Ap #248-8859 Feugiat. Street','L6V 8K8');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (27,11,'Brian E. Cannon','305-973-3594','Quebec','Lévis','Ap #612-3420 Montes, Road','J4R 1Y8');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (26,15,'Dahlia H. Fox','747-633-8010','Ontario','Russell','Ap 248-8859 Feugiat. Street','L6V 8K8');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (27,11,'Brian E. Cannon','305-973-3594','Quebec','Lévis','Ap 612-3420 Montes, Road','J4R 1Y8');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (28,13,'Cullen Vega','465-172-3435','Ontario','Burlington','P.O. Box 881, 6715 Dignissim Ave','K7M 8N4');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (29,20,'Bruce U. Blair','899-466-5745','Manitoba','Beausejour','P.O. Box 821, 8801 Diam Street','R9G 4Y7');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (30,6,'Ivan L. Barrett','626-422-8515','Ontario','St. Catharines','Ap #713-8042 Sit Street','K4N 0L5');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (30,6,'Ivan L. Barrett','626-422-8515','Ontario','St. Catharines','Ap 713-8042 Sit Street','K4N 0L5');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (31,34,'Jared X. Leonard','271-473-5902','Alberta','Rocky Mountain House','P.O. Box 900, 5389 Sagittis Avenue','T1C 1C5');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (32,37,'Daryl Terry','498-809-2944','Ontario','Quinte West','P.O. Box 960, 527 Tristique Avenue','K9C 4V9');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (33,39,'Melodie Reynolds','111-137-4809','Quebec','Valcourt','513-8244 Elit, Street','J2B 9Y6');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (34,29,'Robert Whitley','381-319-3443','Manitoba','Flin Flon','P.O. Box 896, 5501 Mauris Rd.','R6B 5B6');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (35,12,'Maggie B. Mccoy','230-943-0150','Ontario','St. Catharines','P.O. Box 996, 7765 Hendrerit Ave','N3H 8X2');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (36,32,'Isaiah X. Montoya','410-539-2283','Ontario','Grey County','274-9821 Consectetuer Road','N9X 1V2');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (37,30,'Fiona Ruiz','964-373-1028','Quebec','Dorval','Ap #396-5126 Ut Road','G1T 6B6');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (37,30,'Fiona Ruiz','964-373-1028','Quebec','Dorval','Ap 396-5126 Ut Road','G1T 6B6');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (38,39,'Bree Bray','717-977-7726','Ontario','Scarborough','8565 Etiam St.','L5G 8K0');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (39,5,'TaShya Y. Buckley','779-640-3249','Quebec','Saint-Georges','Ap #881-9739 In Rd.','G0L 4E2');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (40,9,'Jason N. Contreras','454-369-2951','Quebec','Price','Ap #483-4891 In Ave','G4A 0Z4');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (39,5,'TaShya Y. Buckley','779-640-3249','Quebec','Saint-Georges','Ap 881-9739 In Rd.','G0L 4E2');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (40,9,'Jason N. Contreras','454-369-2951','Quebec','Price','Ap 483-4891 In Ave','G4A 0Z4');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (41,30,'Alea A. Ortiz','717-521-9609','Alberta','Penhold','935-227 Dis St.','T4W 9W2');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (42,10,'Rhonda C. Luna','374-193-9903','Ontario','Kapuskasing','P.O. Box 990, 2280 Blandit. Rd.','K3C 7R1');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (43,18,'Ashton Sykes','687-799-5559','Prince Edward Island','Stratford','4199 Mollis. Av.','C1A 6P3');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (44,32,'Roanna Guy','412-193-7026','Quebec','Alma','2484 At St.','G0C 5W1');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (45,35,'Judah Wagner','982-952-2901','Newfoundland and Labrador','Marystown','537-9791 In St.','A0S 5J4');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (46,1,'Kimberley O. Taylor','992-637-8656','Quebec','Dubuisson','8844 Mollis Av.','J4Y 6J7');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (47,36,'Kieran Y. Sutton','239-332-3013','Alberta','Breton','Ap #980-7807 Morbi Av.','T5Y 2C4');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (48,11,'Audra Delacruz','335-263-4916','Newfoundland and Labrador','Fortune','Ap #640-8358 Nullam Rd.','A0S 1T7');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (47,36,'Kieran Y. Sutton','239-332-3013','Alberta','Breton','Ap 980-7807 Morbi Av.','T5Y 2C4');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (48,11,'Audra Delacruz','335-263-4916','Newfoundland and Labrador','Fortune','Ap 640-8358 Nullam Rd.','A0S 1T7');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (49,5,'Lance Weeks','988-570-1631','Nova Scotia','Cape Breton Island','5297 Ante Street','B0V 6N6');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (50,15,'Lydia I. Cannon','326-839-5531','Ontario','Malahide','P.O. Box 155, 6071 Phasellus Ave','K9S 3K6');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (51,15,'Nichole M. Golden','639-480-6437','British Columbia','Kent','Ap #868-8497 Mauris Rd.','V3M 3G0');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (51,15,'Nichole M. Golden','639-480-6437','British Columbia','Kent','Ap 868-8497 Mauris Rd.','V3M 3G0');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (52,38,'Hop Bright','754-973-4196','Ontario','Caledon','P.O. Box 218, 9674 Ac Road','N1W 2Y7');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (53,11,'Slade Glenn','811-140-4603','Manitoba','Stonewall','2584 Fringilla St.','R7A 3J5');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (54,16,'Mariam A. Rodgers','869-516-3030','Ontario','Merrickville-Wolford','Ap #123-3481 Consequat Street','N0K 4W4');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (54,16,'Mariam A. Rodgers','869-516-3030','Ontario','Merrickville-Wolford','Ap 123-3481 Consequat Street','N0K 4W4');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (55,26,'Kareem G. Mayo','588-941-2918','Quebec','Lac-Serent','P.O. Box 310, 566 Eget Av.','J8A 9R4');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (56,27,'Donovan P. Olson','701-985-7619','Ontario','Orangeville','P.O. Box 255, 105 Ornare Ave','L5K 4G2');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (57,32,'Benedict Dejesus','896-978-9023','Quebec','Ville de Maniwaki','P.O. Box 133, 3382 Dictum Av.','J1R 7P6');
@@ -192,22 +192,22 @@ INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, ci
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (60,12,'Cameron Snow','518-850-7423','British Columbia','Hope','7675 Elit. Rd.','V4N 3Y0');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (61,18,'Tanya Armstrong','483-743-4109','Quebec','Baie-Comeau','P.O. Box 718, 3678 Quisque Street','H7G 3K0');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (62,32,'Hammett Vinson','263-446-2540','British Columbia','Comox','P.O. Box 238, 9700 Sed Ave','V2W 5A1');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (63,30,'Tasha F. Johnson','984-260-8520','Quebec','Lévis','Ap #427-4974 A Rd.','G2R 1K3');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (64,29,'Shad U. Gallegos','567-187-9734','Ontario','Whitby','Ap #839-9525 Nulla Ave','K0Y 4S2');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (63,30,'Tasha F. Johnson','984-260-8520','Quebec','Lévis','Ap 427-4974 A Rd.','G2R 1K3');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (64,29,'Shad U. Gallegos','567-187-9734','Ontario','Whitby','Ap 839-9525 Nulla Ave','K0Y 4S2');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (65,2,'Kim Parrish','439-545-6591','Manitoba','Minitonas','P.O. Box 676, 2077 Orci. Rd.','R5G 5K2');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (66,28,'Summer X. Page','883-290-9218','Saskatchewan','Lang','500-9567 Luctus Avenue','S7K 2K8');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (67,9,'Daryl Leach','301-543-7000','New Brunswick','Campbellton','P.O. Box 375, 1934 Neque Avenue','E5X 4T9');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (68,5,'Meredith Carroll','228-134-5659','British Columbia','Qualicum Beach','Ap #774-629 Enim. Rd.','V2Y 0H6');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (68,5,'Meredith Carroll','228-134-5659','British Columbia','Qualicum Beach','Ap 774-629 Enim. Rd.','V2Y 0H6');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (69,34,'Jade Black','653-593-3191','Ontario','Aurora','P.O. Box 963, 3155 Ac Avenue','N1T 2Z3');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (70,9,'Angela Head','462-990-3984','British Columbia','Mission','Ap #682-4133 Felis Road','V1A 8R6');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (71,23,'Jakeem Harvey','115-177-3031','Ontario','Merrickville-Wolford','Ap #666-9799 Ridiculus Street','K2G 5Z3');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (70,9,'Angela Head','462-990-3984','British Columbia','Mission','Ap 682-4133 Felis Road','V1A 8R6');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (71,23,'Jakeem Harvey','115-177-3031','Ontario','Merrickville-Wolford','Ap 666-9799 Ridiculus Street','K2G 5Z3');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (72,16,'Colleen M. King','506-439-2552','Quebec','Carleton','306 Ac, Road','J4V 8C1');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (73,14,'Daquan S. Sellers','115-233-3748','Quebec','Dorval','P.O. Box 918, 1473 Ac Avenue','J0E 4S5');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (74,39,'Jasmine Mercado','809-324-1682','Manitoba','Winnipeg','4965 Dui. Av.','R0Z 0P6');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (75,24,'Irene Levine','736-297-2950','Ontario','Hamilton','828-4504 In Avenue','M2T 7S8');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (76,6,'Keegan X. Webb','346-295-6332','British Columbia','Oliver','4385 Mauris Av.','V4E 5A2');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (77,9,'Iola Osborne','732-970-8724','Ontario','Guelph','765-6138 Rhoncus. Avenue','N0V 1K6');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (78,30,'Alexandra Bridges','668-956-6165','Ontario','Northumberland','Ap #430-5072 Ut Rd.','L6H 1N3');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (78,30,'Alexandra Bridges','668-956-6165','Ontario','Northumberland','Ap 430-5072 Ut Rd.','L6H 1N3');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (79,12,'Sylvester G. Dixon','296-196-1745','Ontario','Kitchener','P.O. Box 985, 8040 Mauris Avenue','K9A 2H7');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (80,25,'Hillary E. Christensen','954-617-8483','Ontario','Markham','P.O. Box 650, 8382 Amet Road','K0H 4S1');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (81,19,'Shad Grimes','745-755-7427','British Columbia','Hope','296-2991 Cras Rd.','V6J 0P0');
@@ -221,7 +221,7 @@ INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, ci
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (89,11,'Astra Massey','835-156-4880','Alberta','Lethbridge','3795 Congue St.','T8B 4V4');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (90,6,'Kirby Case','742-850-9082','Alberta','Mayerthorpe','3673 Eu, Avenue','T0Z 8J1');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (91,27,'Deacon Thornton','750-890-5150','Quebec','Dorval','1795 Phasellus St.','G5E 3T1');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (92,36,'Bruno E. Potts','693-730-2896','Alberta','Picture Butte','Ap #399-7736 Vestibulum, Ave','T0P 7Z9');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (92,36,'Bruno E. Potts','693-730-2896','Alberta','Picture Butte','Ap 399-7736 Vestibulum, Ave','T0P 7Z9');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (93,12,'Lyle E. Delacruz','504-478-0170','Quebec','Kirkland','5972 Velit Rd.','G9C 5S3');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (94,10,'Ira Mcguire','684-620-2873','Quebec','Dollard-des-Ormeaux','6447 Egestas. Road','J1A 7C0');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (95,29,'Halee R. Townsend','595-402-4968','British Columbia','Coquitlam','3945 Nisl. Rd.','V5H 2K2');
@@ -229,7 +229,7 @@ INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, ci
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (97,40,'Karina Valdez','440-133-7465','British Columbia','Fort St. John','P.O. Box 807, 7421 Praesent Rd.','V7G 3M8');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (98,12,'Farrah O. Potts','652-690-8838','Ontario','Orangeville','964-8682 Erat Rd.','L1G 0L7');
 INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (99,9,'Eve Z. Figueroa','258-514-7449','British Columbia','Williams Lake','4890 Quis, Rd.','V4V 5N6');
-INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (100,5,'Bruce P. Maynard','443-690-0335','Quebec','Montreal','Ap #830-7510 Eget Av.','J9G 9P2');
+INSERT INTO address(pk_addrid, fk_userId, name, contactPhoneNumber, province, city ,streetAddr, postalCode) VALUES (100,5,'Bruce P. Maynard','443-690-0335','Quebec','Montreal','Ap 830-7510 Eget Av.','J9G 9P2');
 
 -- Inserindo dados nas tabelas de cartões
 
@@ -251,17 +251,16 @@ INSERT INTO credit_card VALUES('8473 9299 8492 7361',41,'VISA');
 INSERT INTO credit_card VALUES('7283 8982 8361 5593',24,'VISA');
 INSERT INTO credit_card VALUES('9238 2749 5738 5921',12,'MASTER');
 INSERT INTO credit_card VALUES('2839 8219 3728 2933',9,'VISA');
-
-# ALTER TABLE debit_card DROP COLUMN organization;
+ 
 INSERT INTO debit_card VALUES('5872 8293 3321 0123', 15);
 INSERT INTO debit_card VALUES('5728 8391 7362 5381', 30);
 INSERT INTO debit_card VALUES('4457 4992 7391 0219', 32);
 INSERT INTO debit_card VALUES('5782 7293 8472 0318', 1);
 INSERT INTO debit_card VALUES('4509 4462 9302 0716', 3);
 
-# Inserindo dados nas tabelas de produtos
+-- Inserindo dados nas tabelas de produtos
 
-# ALTER TABLE store MODIFY COLUMN startDate Date; O campo startDate está definido como um time e foi alterado para date
+ ALTER TABLE store MODIFY COLUMN startDate Date; -- O campo startDate está definido como um time e foi alterado para date
 
 INSERT INTO store(pk_sid,name,province,city,streetAddr,customerGrade,startDate) VALUES(8,'Choby Collection','Quebec','Montreal','No.2012 Sanguinet',4,'2006-5-30');
 INSERT INTO store(pk_sid,name,province,city,streetAddr,customerGrade,startDate) VALUES(10,'BestBuy','British Columbia','Vancouver','No.20 ShineStreet',5,'2002-8-05');
@@ -276,9 +275,9 @@ INSERT INTO Brand VALUES('DELL');
 INSERT INTO Brand VALUES('GoPro');
 INSERT INTO Brand VALUES('Microsoft');
 
-# ALTER TABLE Service_Point MODIFY COLUMN startTime VARCHAR(8);
+ ALTER TABLE Service_Point MODIFY COLUMN startTime VARCHAR(8);
 
-# ALTER TABLE Service_Point MODIFY COLUMN endTime VARCHAR(8);
+ ALTER TABLE Service_Point MODIFY COLUMN endTime VARCHAR(8);
 
 INSERT INTO Service_Point VALUES(27,'2045 Sanguinet Street','Montreal','Quebec','10:00 am','5:30 pm');
 INSERT INTO Service_Point VALUES(72,'37 Sherbrook Street','Montreal','Quebec','9:30 am','5:30 pm');
@@ -286,8 +285,7 @@ INSERT INTO Service_Point VALUES(34,'45 St Denis Street','Montreal','Quebec','10
 INSERT INTO Service_Point VALUES(19,'1099 University street','Montreal','Quebec','10:00 am','5:30 pm');
 INSERT INTO Service_Point VALUES(9,'27 St Catherine Street','Quebec City','Quebec','10:00 am','5:30 pm');
 
-# ALTER TABLE Product(pk_pid,fk_sid,fk_brand,name,type,modelNumber,color,amount,price) ADD COLUMN modelNumber varchar(50); Adiciona o campo modelNumber para tabela de produtos
-# ALTER TABLE product MODIFY COLUMN name VARCHAR(80); Altera o tamanho do nome de 30 para 80
+ALTER TABLE product MODIFY COLUMN name VARCHAR(80); -- Altera o tamanho do nome de 30 para 80
 
 INSERT IGNORE INTO Product(pk_pid,fk_sid,fk_brand,name,type,modelNumber,color,amount,price) VALUES(1,8,'Asus','ASUS Chromebook 11.6 laptop','laptop','C201PA-DS02','navy blue',10,262);
 INSERT IGNORE INTO Product(pk_pid,fk_sid,fk_brand,name,type,modelNumber,color,amount,price) VALUES(2,10,'Bose','Bose QuietComfort 35 wireless headphone','headphone','759944-0010','black',100,449);
@@ -298,7 +296,7 @@ INSERT IGNORE INTO Product(pk_pid,fk_sid,fk_brand,name,type,modelNumber,color,am
 INSERT IGNORE INTO Product(pk_pid,fk_sid,fk_brand,name,type,modelNumber,color,amount,price) VALUES(7,8,'Microsoft','Microsoft Sculpt Ergonomic Wireless Bluetrack Desktop Keyboard','computer accessories','L5V-00003','black',70,126);
 INSERT IGNORE INTO Product(pk_pid,fk_sid,fk_brand,name,type,modelNumber,color,amount,price) VALUES(8,8,'Microsoft','Microsoft Surface Pro 4 i5 (128GB) with Wireless Media Adapter','laptop','CR5-00001','black',30,1350);
 
-# ALTER TABLE Order_Item MODIFY COLUMN creationTime DATE; Muda o campo de creationDate para se adequar aos valores 
+ ALTER TABLE Order_Item MODIFY COLUMN creationTime DATE; -- Muda o campo de creationDate para se adequar aos valores 
 
 INSERT INTO Order_Item VALUES(1,1,262,'2016-09-18');
 INSERT INTO Order_Item VALUES(2,2,449,'2014-03-22');
@@ -311,9 +309,9 @@ INSERT INTO Order_Item VALUES(8,8,1350,'2016-12-27');
 INSERT INTO Order_Item VALUES(9,1,262,'2015-02-13');
 INSERT INTO Order_Item VALUES(10,5,599,'2015-08-22');
 
-# DELETE FROM comments WHERE fk_pid <> 0; -- Deleta todos os dados 
+ DELETE FROM comments WHERE fk_pid <> 0; -- Deleta todos os dados 
 
-# ALTER TABLE comments MODIFY COLUMN content VARCHAR(300); -- Adiciona mais linhas de conteudo 
+ ALTER TABLE comments MODIFY COLUMN content VARCHAR(300); -- Adiciona mais linhas de conteudo 
 
 INSERT INTO Comments VALUES('2017-02-21',5,1,4.3,'The laptop works amazingly. It holds a 10 hour charge, is compact to wander with, the brightness/volume features are perfect.');
 INSERT INTO Comments VALUES('2016-09-18',5,2,4.6,'These headphones are worth the money, yes even the CAD price. They sound good and the noise cancellation is incredible.');
@@ -327,7 +325,7 @@ INSERT INTO Comments VALUES('2015-05-30',12,2,4.3,'I have been using it for a we
 INSERT INTO Comments VALUES('2015-08-22',18,1,5,'This was definitely an impulse buy on my part but has turned out to be one of the best things I have ever invested in for school!');
 INSERT INTO Comments VALUES('2015-08-22',24,5,5,'First go pro I have ever purchased. Really impressed with the quality and ease of use. The stabilizer is awesome, do not need to warp stabilize a ton in adobe.');
 
-# ALTER TABLE Save_to_Shopping_Cart MODIFY COLUMN addTime DATE;
+ ALTER TABLE Save_to_Shopping_Cart MODIFY COLUMN addTime DATE;
 
 INSERT INTO Save_to_Shopping_Cart VALUES(5,1,'2017-02-21',1);
 INSERT INTO Save_to_Shopping_Cart VALUES(5,2,'2016-09-18',1);
@@ -369,6 +367,8 @@ INSERT INTO Orders(pk_orderNumber,paymentState,creationTime,totalAmount) VALUES(
 INSERT INTO Orders(pk_orderNumber,paymentState,creationTime,totalAmount) VALUES(73919231,'Paid','2014-02-11',20);
 INSERT INTO Orders(pk_orderNumber,paymentState,creationTime,totalAmount) VALUES(84821231,'Paid','2014-11-02',18);
 
+# select * from ORDERS WHERE pk_ordernumber = 93042135;
+
 INSERT INTO Contain VALUES(76023921,1,1);
 INSERT INTO Contain VALUES(76023921,2,2);
 INSERT INTO Contain VALUES(23924831,3,1);
@@ -382,7 +382,7 @@ INSERT INTO Contain VALUES(72839301,10,1);
 INSERT INTO Contain VALUES(93042135,1,1);
 INSERT INTO Contain VALUES(93042135,2,1);
 INSERT INTO Contain VALUES(93042135,3,1);
-INSERT INTO Contain VALUES(82921201,4,4);
+# INSERT INTO Contain VALUES(82921201,4,4);
 INSERT INTO Contain VALUES(84821231,5,3);
 INSERT INTO Contain VALUES(73919231,6,2);
 INSERT INTO Contain VALUES(83921201,7,5);
