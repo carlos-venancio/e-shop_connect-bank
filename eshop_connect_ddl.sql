@@ -4,6 +4,65 @@ USE eshop_connect;
 
 -- Criação de tabelas
 
+-- Tabelas de dados dos produtos
+
+CREATE TABLE IF NOT EXISTS store (
+	pk_sid 			INT,
+    name 			VARCHAR(30),
+    startDate 		TIME,
+    customerGrade	INT,
+    streetAddr		VARCHAR(50),
+    city 			VARCHAR(30),
+    province 		VARCHAR(30),
+
+	PRIMARY KEY (pk_sid)
+);
+
+
+CREATE TABLE IF NOT EXISTS brand (
+	pk_brandName	VARCHAR(20),
+    
+    PRIMARY KEY(pk_brandName)
+);
+
+-- Deve ser executada antes de after_sales_service_at
+CREATE TABLE IF NOT EXISTS service_point(
+	pk_spid 		INT AUTO_INCREMENT,
+    streetaddr		VARCHAR(40),
+    city			VARCHAR(30),
+    province 		VARCHAR(20),
+    startTime		TIME,
+    endTime			TIME,
+    
+    PRIMARY KEY (pk_spid)
+);
+
+CREATE TABLE IF NOT EXISTS after_sales_service_at(
+	fk_brandName	VARCHAR(20),
+    fk_spid			INT,
+    
+    PRIMARY KEY (fk_brandName,fk_spid),
+    FOREIGN KEY (fk_brandName) REFERENCES brand(pk_brandName),
+    FOREIGN KEY (fk_spid) REFERENCES service_point (pk_spid)
+); 
+
+CREATE TABLE IF NOT EXISTS product (
+	pk_pid 	INT,
+    fk_sid 	INT,
+    name 	VARCHAR(20),
+    fk_brand 	VARCHAR(20),
+    type 	VARCHAR(20) NOT NULL,
+    amount	INT NOT NULL,
+    price	DECIMAL(10,2) NOT NULL,
+    color 	VARCHAR(20),
+    modelNumber VARCHAR(50),
+    
+    PRIMARY KEY (pk_pid),
+    FOREIGN KEY (fk_sid) REFERENCES store(pk_sid),
+    FOREIGN KEY (fk_brand) REFERENCES brand(pk_brandName)
+);
+
+
 -- Tabelas de dados dos usuarios
 CREATE TABLE IF NOT EXISTS users (
 	pk_userId		INT PRIMARY KEY,
@@ -78,63 +137,6 @@ CREATE TABLE IF NOT EXISTS debit_card (
     FOREIGN KEY (fk_userId) REFERENCES users(pk_userId)
 );
 
--- Tabelas de dados dos produtos
-
-CREATE TABLE IF NOT EXISTS store (
-	pk_sid 			INT,
-    name 			VARCHAR(30),
-    startDate 		TIME,
-    customerGrade	INT,
-    streetAddr		VARCHAR(50),
-    city 			VARCHAR(30),
-    province 		VARCHAR(30),
-
-	PRIMARY KEY (pk_sid)
-);
-
-
-CREATE TABLE IF NOT EXISTS brand (
-	pk_brandName	VARCHAR(20),
-    
-    PRIMARY KEY(pk_brandName)
-);
-
--- Deve ser executada antes de after_sales_service_at
-CREATE TABLE IF NOT EXISTS service_point(
-	pk_spid 		INT,
-    streetaddr		VARCHAR(40),
-    city			VARCHAR(30),
-    province 		VARCHAR(20),
-    startTime		TIME,
-    endTime			TIME,
-    
-    PRIMARY KEY (pk_spid)
-);
-
-CREATE TABLE IF NOT EXISTS after_sales_service_at(
-	fk_brandName	VARCHAR(20),
-    fk_spid			INT,
-    
-    PRIMARY KEY (fk_brandName,fk_spid),
-    FOREIGN KEY (fk_brandName) REFERENCES brand(pk_brandName),
-    FOREIGN KEY (fk_spid) REFERENCES service_point (pk_spid)
-); 
-
-CREATE TABLE IF NOT EXISTS product (
-	pk_pid 	INT,
-    fk_sid 	INT,
-    name 	VARCHAR(20),
-    fk_brand 	VARCHAR(20),
-    type 	VARCHAR(20) NOT NULL,
-    amount	INT NOT NULL,
-    price	DECIMAL(10,2) NOT NULL,
-    color 	VARCHAR(20),
-    modelNumber VARCHAR(50),
-    
-    PRIMARY KEY (pk_pid),
-    FOREIGN KEY (fk_sid) REFERENCES store(pk_sid),
-    FOREIGN KEY (fk_brand) REFERENCES brand(pk_brandName)
-);
 
 -- Tabelas de controle dos pedidos
 

@@ -279,11 +279,11 @@ INSERT INTO Brand VALUES('Microsoft');
 
  ALTER TABLE Service_Point MODIFY COLUMN endTime VARCHAR(8);
 
-INSERT INTO Service_Point VALUES(27,'2045 Sanguinet Street','Montreal','Quebec','10:00 am','5:30 pm');
-INSERT INTO Service_Point VALUES(72,'37 Sherbrook Street','Montreal','Quebec','9:30 am','5:30 pm');
-INSERT INTO Service_Point VALUES(34,'45 St Denis Street','Montreal','Quebec','10:00 am','6:00 pm');
-INSERT INTO Service_Point VALUES(19,'1099 University street','Montreal','Quebec','10:00 am','5:30 pm');
-INSERT INTO Service_Point VALUES(9,'27 St Catherine Street','Quebec City','Quebec','10:00 am','5:30 pm');
+INSERT INTO Service_Point VALUES('2045 Sanguinet Street','Montreal','Quebec','10:00 am','5:30 pm');
+INSERT INTO Service_Point VALUES('37 Sherbrook Street','Montreal','Quebec','9:30 am','5:30 pm');
+INSERT INTO Service_Point VALUES('45 St Denis Street','Montreal','Quebec','10:00 am','6:00 pm');
+INSERT INTO Service_Point VALUES('1099 University street','Montreal','Quebec','10:00 am','5:30 pm');
+INSERT INTO Service_Point VALUES('27 St Catherine Street','Quebec City','Quebec','10:00 am','5:30 pm');
 
 ALTER TABLE product MODIFY COLUMN name VARCHAR(80); -- Altera o tamanho do nome de 30 para 80
 
@@ -342,16 +342,16 @@ INSERT INTO Manager VALUES(30,39,'2006-08-09');
 INSERT INTO Manager VALUES(32,77,'2005-03-04');
 INSERT INTO Manager VALUES(1,218,'2010-05-06');
 
-INSERT INTO After_Sales_Service_At VALUES('Asus',27);
-INSERT INTO After_Sales_Service_At VALUES('Microsoft',27);
-INSERT INTO After_Sales_Service_At VALUES('DELL',72);
-INSERT INTO After_Sales_Service_At VALUES('Microsoft',34);
-INSERT INTO After_Sales_Service_At VALUES('Bose',34);
-INSERT INTO After_Sales_Service_At VALUES('Microsoft',19);
-INSERT INTO After_Sales_Service_At VALUES('Canon',19);
-INSERT INTO After_Sales_Service_At VALUES('Microsoft',9);
-INSERT INTO After_Sales_Service_At VALUES('DELL',9);
-INSERT INTO After_Sales_Service_At VALUES('GoPro',9);
+INSERT INTO After_Sales_Service_At VALUES('Asus',1);
+INSERT INTO After_Sales_Service_At VALUES('Microsoft',2);
+INSERT INTO After_Sales_Service_At VALUES('DELL',3);
+INSERT INTO After_Sales_Service_At VALUES('Microsoft',2);
+INSERT INTO After_Sales_Service_At VALUES('Bose',2);
+INSERT INTO After_Sales_Service_At VALUES('Microsoft',1);
+INSERT INTO After_Sales_Service_At VALUES('Canon',4);
+INSERT INTO After_Sales_Service_At VALUES('Microsoft',2);
+INSERT INTO After_Sales_Service_At VALUES('DELL',4);
+INSERT INTO After_Sales_Service_At VALUES('GoPro',5);
 
 INSERT INTO Orders(pk_orderNumber,paymentState,creationTime,totalAmount) VALUES(76023921,'Paid','2016-09-18',315);
 INSERT INTO Orders(pk_orderNumber,paymentState,creationTime,totalAmount) VALUES(23924831,'Paid','2014-03-22',174);
